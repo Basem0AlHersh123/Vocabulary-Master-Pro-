@@ -1,4 +1,3 @@
-```markdown
 # Vocabulary Master Pro 🚀
 
 <div align="center">
