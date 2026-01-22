@@ -212,7 +212,7 @@ The application manages 299 vocabulary words with comprehensive metadata:
 ## 👨‍💻 About the Developer
 
 <div align="center">
-<img src="./profile.jpg" alt="Basem Al-Hersh" width="200" style="border-radius: 50%; border: 4px solid #6a11cb; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="./profile.png" alt="Basem Al-Hersh" width="200" style="border-radius: 50%; border: 4px solid #6a11cb; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 <h3>Basem Al-Hersh</h3>
 <p><strong>IT Student | Ethical Hacking Enthusiast | Python Developer</strong></p>
