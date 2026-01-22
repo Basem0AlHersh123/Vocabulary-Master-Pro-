@@ -385,10 +385,182 @@
         }
       }
     </style>
+    <style>
+      /* Add these dark mode fixes to your existing CSS */
+
+      [data-theme="dark"] .navbar {
+        background-color: var(--light) !important;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      [data-theme="dark"] .navbar-light .navbar-nav .nav-link {
+        color: var(--dark) !important;
+      }
+
+      [data-theme="dark"] .navbar-light .navbar-nav .nav-link:hover {
+        color: var(--primary) !important;
+      }
+
+      [data-theme="dark"] .navbar-light .navbar-nav .nav-link.active {
+        color: var(--primary) !important;
+        font-weight: 600;
+      }
+
+      [data-theme="dark"] .navbar-toggler {
+        border-color: var(--border-color);
+      }
+
+      [data-theme="dark"] .navbar-toggler-icon {
+        filter: invert(1);
+      }
+
+      [data-theme="dark"] .navbar-brand {
+        background: linear-gradient(to right, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      [data-theme="dark"] .theme-toggle {
+        color: var(--dark);
+      }
+
+      /* Fix text colors in dark mode */
+      [data-theme="dark"] {
+        color: #e1e1e1;
+      }
+
+      [data-theme="dark"] .card {
+        color: #e1e1e1;
+      }
+
+      [data-theme="dark"] .card-header {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-bottom-color: var(--border-color);
+      }
+
+      [data-theme="dark"] .card-header.bg-primary {
+        background-color: var(--primary) !important;
+        color: white;
+      }
+
+      [data-theme="dark"] .card-header.bg-success {
+        background-color: var(--success) !important;
+        color: white;
+      }
+
+      /* Fix badges in dark mode */
+      [data-theme="dark"] .badge {
+        color: white;
+      }
+
+      [data-theme="dark"] .badge.bg-light {
+        background-color: #444 !important;
+        color: #e1e1e1 !important;
+      }
+
+      [data-theme="dark"] .badge.bg-secondary {
+        background-color: #666 !important;
+      }
+
+      /* Fix form elements */
+      [data-theme="dark"] .form-control,
+      [data-theme="dark"] .form-select {
+        background-color: var(--light);
+        border-color: var(--border-color);
+        color: var(--dark);
+      }
+
+      [data-theme="dark"] .form-control:focus,
+      [data-theme="dark"] .form-select:focus {
+        background-color: var(--light);
+        border-color: var(--primary);
+        color: var(--dark);
+      }
+
+      /* Fix buttons */
+      [data-theme="dark"] .btn-outline-primary {
+        border-color: var(--primary);
+        color: var(--primary);
+      }
+
+      [data-theme="dark"] .btn-outline-primary:hover {
+        background-color: var(--primary);
+        color: white;
+      }
+
+      [data-theme="dark"] .btn-outline-warning {
+        border-color: var(--warning);
+        color: var(--warning);
+      }
+
+      [data-theme="dark"] .btn-outline-warning:hover {
+        background-color: var(--warning);
+        color: black;
+      }
+
+      /* Fix alerts */
+      [data-theme="dark"] .alert-info {
+        background-color: rgba(52, 152, 219, 0.2);
+        border-color: rgba(52, 152, 219, 0.3);
+        color: #b3d9ff;
+      }
+
+      /* Fix quiz options */
+      [data-theme="dark"] .quiz-option {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-color: var(--border-color);
+      }
+
+      [data-theme="dark"] .quiz-option:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      /* Fix list group items */
+      [data-theme="dark"] .list-group-item {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-color: var(--border-color);
+        color: #e1e1e1;
+      }
+
+      /* Fix text-muted in dark mode */
+      [data-theme="dark"] .text-muted {
+        color: #aaa !important;
+      }
+
+      /* Fix footer */
+      [data-theme="dark"] footer {
+        background-color: #1a1a1a;
+        border-top-color: var(--border-color);
+      }
+
+      /* Fix dropdowns if any */
+      [data-theme="dark"] .dropdown-menu {
+        background-color: var(--card-bg);
+        border-color: var(--border-color);
+      }
+
+      [data-theme="dark"] .dropdown-item {
+        color: var(--dark);
+      }
+
+      [data-theme="dark"] .dropdown-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--dark);
+      }
+
+      /* Fix input group text */
+      [data-theme="dark"] .input-group-text {
+        background-color: #333;
+        border-color: var(--border-color);
+        color: #e1e1e1;
+      }
+    </style>
   </head>
   <body data-theme="light">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light sticky-top"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#" onclick="navigateTo('dashboard')">
           <i class="fas fa-book-open me-2"></i>VocabMaster Pro
