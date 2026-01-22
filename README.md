@@ -19,7 +19,7 @@
 <br>
 
 <div align="center">
-  <img src="./assets/dashboard.png" alt="Vocabulary Master Pro Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <img src="./dashboard.png" alt="Vocabulary Master Pro Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
 </div>
 
 ## ✨ Features
@@ -29,17 +29,17 @@
     <tr>
       <td width="33%" align="center">
         <h3>🎯 Core Learning</h3>
-        <img src="./assets/flashcards.png" alt="Flashcards" width="200">
+        <img src="./flashcards.png" alt="Flashcards" width="200">
         <p>Interactive flashcards with 3D flip animations</p>
       </td>
       <td width="33%" align="center">
         <h3>📊 Progress Tracking</h3>
-        <img src="./assets/progress.png" alt="Progress Charts" width="200">
+        <img src="./progress.png" alt="Progress Charts" width="200">
         <p>Real-time statistics and achievement system</p>
       </td>
       <td width="33%" align="center">
         <h3>🎨 Beautiful Design</h3>
-        <img src="./assets/theme.png" alt="Dark/Light Theme" width="200">
+        <img src="./theme.png" alt="Dark/Light Theme" width="200">
         <p>Dark/light theme with smooth animations</p>
       </td>
     </tr>
@@ -83,9 +83,7 @@ Visit the live demo: [Vocabulary Master Pro](https://Basem0AlHersh123.github.io/
 ### Option 2: Run Locally
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/Basem0AlHersh123/vocabulary-master-pro.git](https://github.com/Basem0AlHersh123/vocabulary-master-pro.git)
-
-```
+   git clone [https://github.com/Basem0AlHersh123/vocabulary-master-pro.git](https://github.com/Basem0AlHersh123/vocabulary-master-pro.git)```
 
 2. **Open the file**
 Simply open `index.html` in your browser - no server needed!
@@ -132,7 +130,7 @@ The dashboard provides an overview of your learning progress, daily challenges, 
 vocabulary-master-pro/
 │
 ├── index.html              # Single HTML file with all code
-├── assets/                 # Images and screenshots
+├──                  # Images and screenshots
 │   ├── dashboard.png
 │   ├── profile.jpg
 │   └── ...
@@ -213,7 +211,7 @@ The application manages 299 vocabulary words with comprehensive metadata:
 ## 👨‍💻 About the Developer
 
 <div align="center">
-<img src="./assets/profile.jpg" alt="Basem Al-Hersh" width="200" style="border-radius: 50%; border: 4px solid #6a11cb; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="./profile.jpg" alt="Basem Al-Hersh" width="200" style="border-radius: 50%; border: 4px solid #6a11cb; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 <h3>Basem Al-Hersh</h3>
 <p><strong>IT Student | Ethical Hacking Enthusiast | Python Developer</strong></p>
