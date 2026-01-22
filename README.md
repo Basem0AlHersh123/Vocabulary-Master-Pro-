@@ -83,7 +83,8 @@ Visit the live demo: [Vocabulary Master Pro](https://Basem0AlHersh123.github.io/
 ### Option 2: Run Locally
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/Basem0AlHersh123/vocabulary-master-pro.git](https://github.com/Basem0AlHersh123/vocabulary-master-pro.git)```
+   git clone [https://github.com/Basem0AlHersh123/vocabulary-master-pro.git](https://github.com/Basem0AlHersh123/vocabulary-master-pro.git)
+   ```
 
 2. **Open the file**
 Simply open `index.html` in your browser - no server needed!
